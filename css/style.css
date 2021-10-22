@@ -10,12 +10,12 @@ header h1 {
     letter-spacing: 2px;
 }
 
-section {
+#bullyng {
     background-color: #000;
     height: 100vh;
 }
 
-section img{
+#bullyng img{
     position: absolute;
     width: 100%;
     height: 100%;
@@ -23,10 +23,24 @@ section img{
     opacity: 0.4;
 }
 
-section div{
+#bullyng div{
     z-index: 2;
 }
 
-section a {
+#bullyng a {
     letter-spacing: 1px;
+}
+
+#rolunk {
+    min-height: 100vh;
+    background-color: #fff;
+}
+
+footer {
+    background-color: #212121;
+}
+
+footer input,
+footer textarea{
+    background-color: #212121;
 }
