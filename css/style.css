@@ -15,7 +15,7 @@ header h1 {
     height: 100vh;
 }
 
-#bullyng img{
+#bullyng img {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -32,8 +32,8 @@ header h1 {
 }
 
 #rolunk {
-    min-height: 100vh;
-    background-color: #fff;
+    background-color:#ffffff;
+    min-height:100vh;
 }
 
 footer {
@@ -41,6 +41,6 @@ footer {
 }
 
 footer input,
-footer textarea{
+footer textarea {
     background-color: #212121;
 }

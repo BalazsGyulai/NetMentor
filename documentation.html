@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,47 +9,43 @@
     <link rel="stylesheet" href="./css/bootstrap.min.css" />
     <link rel="stylesheet" href="./css/style.css">
 </head>
+
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-white position-fixed w-100">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-              <img src="./img/mini-logo.svg" />
-          </a>
-  
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navBarMenu" aria-controls="navBarMenu" aria-expanded="false" aria-label="Toggle navigation">
-              <span><img src="./img/icon-menu.svg"></span>
-          </button>
-  
-          <div class="collapse navbar-collapse justify-content-center " id="navBarMenu">
-              <ul class="navbar-nav">
-                  <li class="nav-item">
-                      <a class="nav-link" href="./index.html">Kezdőlap</a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="#">Rólunk</a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="#">Dokumentáció</a>
-                  </li>
-              </ul>
-          </div>
-        </div>
-      </nav>
+            <a class="navbar-brand" href="./index.html">
+                <img src="./img/mini-logo.svg" />
+            </a>
 
-      <header class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navBarMenu"
+                aria-controls="navBarMenu" aria-expanded="false" aria-label="Toggle navigation">
+                <span><img src="./img/icon-menu.svg"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-center " id="navBarMenu">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html">Kezdőlap</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html#rolunk">Rólunk</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Dokumentáció</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="container-fluid">
         <div class="row position-absolute top-50 start-50 translate-middle">
-            <div class="
-            w-100
-            d-block d-lg-flex
-            justify-content-center
-            align-items-center
-            text-center
-          ">
+            <div class="w-100 d-block d-lg-flex justify-content-center align-items-center text-center">
                 <div class="p-5 text-end">
                     <h1 class="fw-bold text-uppercase">Netmentor</h1>
                     <span class="fw-normal text-secondary text-uppercase fs-5">Dokumentáció</span>
                 </div>
-                <img class="w-75" src="./img/logo.svg" />
+                <img class="w-75" src="./img/logo.svg">
             </div>
         </div>
     </header>
@@ -63,65 +60,380 @@
         </p>
 
         <div class="row">
-            <div class="col">
+            <div class="col-12 col-lg-4">
                 <h3 class="fs-6">A láthatatlanság illúziója</h3>
-                <p>
-                    A zaklatás és az online zaklatás legfőbb különbsége az, hogy az online térben az az illúziónk
+                <p> A zaklatás és az online zaklatás legfőbb különbsége az, hogy az online térben az az illúziónk
                     van, hogy anonimek és láthatatlanok vagyunk. Anonim módon, azaz arc és név nélkül
                     lehetünk jelen, ezáltal a személyes én-érzetünk csökken: „bárkik lehetünk és bármit
-                    mondhatunk, úgysem fog kiderülni, illetve úgysem lesz semmi következménye". Ezért az online térben hajlamosabbak vagyunk olyan dolgokat is megtenni, mondani, illetve olyan
+                    mondhatunk, úgysem fog kiderülni, illetve úgysem lesz semmi következménye". Ezért az
+                    online térben hajlamosabbak vagyunk olyan dolgokat is megtenni, mondani, illetve olyan
                     szavakat használni, amiket élő kommunikációban nem mernénk megtenni. Viselkedésünk
                     könnyen gátlástalanná válhat. Ezzel szemben a valóság, minden akciónk,
                     gombnyomásunk utánkövethető, az IP címünk kikereshető. A zaklatásnak egyes esetei
                     akár jogi felelősségrevonást is eredményezhetnek.
                 </p>
             </div>
-
-            <div class="col">
+            <div class="col-12 col-lg-4">
                 <h3 class="fs-6">A metakommunikáció hiánya</h3>
                 <p>
-                    Az online kommunikációban nehezíti a megértést, hogy hiányoznak a kommunikációt
-                    kísérő érzelmek jelzései, nem látjuk a másik arcát, gesztusait, nem érzékeljük
+                    Az online kommunikációban nehezíti a megértést, hogy hiányoznak a kommunikációt kísérő érzelmek
+                    jelzései, nem látjuk a másik arcát, gesztusait, nem érzékeljük
                     hanghordozását. Mindez félreértéshez vezethet, vicc helyett sértést, segítés helyett
                     esetleg kioktatást érzünk.
-                </p>    
+                </p>
             </div>
-
-            <div class="col">
-                <h3 class="fs-6"> Nem látjuk tetteink következményét</h3>
+            <div class="col-12 col-lg-4">
+                <h3 class="fs-6">Nem látjuk tetteink következményét</h3>
                 <p>
                     Online környezetben nem érzékeljük, nem látjuk, milyen hatással volt viselkedésünk
                     a másikra, milyen sérelmet, kárt okoztunk neki. Ez szintén sokkal gátlástalanabbá teszi
                     az elkövetőt, hiszen nem kap visszajelzést arról, hogy milyen hatása van a szavainak.
                 </p>
             </div>
-
         </div>
 
         <h3 class="fs-6">Nyilvánosság és gyors terjedés</h3>
-            <p>
-                Míg az offline zaklatás gyakran titokban, kétszemélyes helyzetben zajlik, az online zaklatás
-                egyik legnagyobb veszélye, hogy egy nyilvános lejárató komment vagy egy megszégyenító
-                tartalom (előnytelen fotó, vagy meztelen kép) nyilvánosságra hozatala sokkal nagyobb
-                nyilvánosság előtt zajlik. A terjesztés azonnali és szinte végtelen számú lehet. Ezáltal
-                az áldozat ismétlődően és hosszú időn keresztül szembesül a megszégyenítő tartalommal.
-            </p>
+        <p>
+            Míg az offline zaklatás gyakran titokban, kétszemélyes helyzetben zajlik, az online zaklatás
+            egyik legnagyobb veszélye, hogy egy nyilvános lejárató komment vagy egy megszégyenító
+            tartalom (előnytelen fotó, vagy meztelen kép) nyilvánosságra hozatala sokkal nagyobb
+            nyilvánosság előtt zajlik. A terjesztés azonnali és szinte végtelen számú lehet. Ezáltal
+            az áldozat ismétlődően és hosszú időn keresztül szembesül a megszégyenítő tartalommal.
+        </p>
 
-            <h3 class="fs-6">A kontroll elvesztése</h3>
-            Egy nyilvánosságra hozott megszégyenítő tartalom sorsát nagyon nehéz befolyásolni.
-            Egy meggondolatlan, hirtelen felindulásból vagy visszavágásból megosztott tartalmat nem
-            tud visszavonni az elkövető sem. Egy ilyen poszt olyan lavinát tud elindítani, amire sokszor
-            
-            maga a posztoló sem számított.
-            Az internet mindig él, nem lehet kikapcsolni, az áldozat akárhányszor felmegy a netre,
-            szembesülni fog a megszégyenítésével. Ez olyan hatalmas lelki terhet jelenthet egy fiatal
-            számára, hogy sokszor drasztikus lakóhely- és iskolaváltás kell ahhoz, hogy túl lehessen
-            lépni egy ilyen eseményen. Sajnos azonban sokszor ez sem segít, és vannak olyan fiatalok,
-            akik inkább az öngyilkosságot választják, mert úgy érzik, örökös szégyen vár rájuk.
-            </p>
+        <h3 class="fs-6">A kontroll elvesztése</h3>
+        Egy nyilvánosságra hozott megszégyenítő tartalom sorsát nagyon nehéz befolyásolni.
+        Egy meggondolatlan, hirtelen felindulásból vagy visszavágásból megosztott tartalmat nem
+        tud visszavonni az elkövető sem. Egy ilyen poszt olyan lavinát tud elindítani, amire sokszor
+        maga a posztoló sem számított.
+        Az internet mindig él, nem lehet kikapcsolni, az áldozat akárhányszor felmegy a netre,
+        szembesülni fog a megszégyenítésével. Ez olyan hatalmas lelki terhet jelenthet egy fiatal
+        számára, hogy sokszor drasztikus lakóhely- és iskolaváltás kell ahhoz, hogy túl lehessen
+        lépni egy ilyen eseményen. Sajnos azonban sokszor ez sem segít, és vannak olyan fiatalok,
+        akik inkább az öngyilkosságot választják, mert úgy érzik, örökös szégyen vár rájuk.
+        </p>
     </section>
 
-      <!-- scriptek JS -->
-      <script src="./js/bootstrap.min.js"></script>
+    <section class="container-fluid">
+        <h2 class="fs-5" id="online_zaklatas_szereploi">Online zaklatás szereplői</h2>
+        <hr>
+        <p>Az online zaklatás szereplői: zaklató, áldozat, szemlélő
+            A zaklatásnak, így az online zaklatásnak is, három szereplője van: az elkövető, az áldozat,
+            és a szemlélők, vagyis az a társas közeg, ahol zajlik a zaklatás. Vizsgáljuk meg, mi jellemzi a zaklatás
+            szereplőit!
+        </p>
+        <div class="row">
+            <div class="col-12 col-lg-4-12 col-lg-4">
+                <h3 class="fs-6">Az elkövetők</h3>
+                <p>
+                    Az elkövetők egy része az offline világban is agresszívebbek társaikkal és a felnőttekkel.
+                    Nem ritka, hogy frusztráltak, saját életükben nehéz helyzetekkel küzdenek.
+                    Hajlamosabbak az iskolai szabályokat megszegni. Előfordul, hogy az osztály hangadói,
+                    központi szerepet töltenek be társaik körében. A magyar felmérések alapján, a közösségi
+                    oldalakon aktívak, sok ismerőssel rendelkeznek, akik közül sokat személyesen nem
+                    ismernek. Fontos megemlítenünk, hogy az elkövetők egy része maga is volt már áldozat -
+                    vagyis az agresszió gyakran agressziót szül. Épp ezért nagyon fontos, hogy az áldozatok
+                    támogatása mellett az elkövetők indulatkezelési képességével is foglalkozzunk.
+                </p>
+            </div>
+            <div class="col-12 col-lg-4-12 col-lg-4">
+                <h3 class="fs-6">Az áldozatok</h3>
+                <p>
+                    Az áldozat gyakran nem túl népszerű, vagy „láthatatlan" az osztályában. A magányos,
+                    befelé forduló fiatalok könnyen válhatnak céltáblává egy olyan közegben, ahol több,
+                    zárt csoport (klikk) is létrejött. Az offline kirekesztés, cikizés nagyon könnyen folytatódik
+                    az online térben is, ahol a már említett hatások miatt nagyon könnyen eldurvulhat.
+                    Az áldozattá válást erősíti, hogy az offline világban magányos fiatalok gyakran aktívabbak
+                    és kitárulkozóbbak a neten, ezáltal könnyebben válnak támadások célpontjává.
+                    A kutatások szerint áldozati oldalon is igaz a kölcsönösség: az áldozatok egy része maga is volt már
+                    elkövető.
+                </p>
+            </div>
+            <div class="col-12 col-lg-4-12 col-lg-4">
+                <h3 class="fs-6">A szemlélők</h3>
+
+                <p>
+                    Mint már említettük, az online zaklatás nagy nyilvánosság előtt zajlik. A szemlélők
+                    reakciója nagyban befolyásolja azt, hogy milyen hosszan és milyen intenzitással folytatódik
+                    a bántó viselkedés. Ha a többség elítéli a zaklató viselkedését, le fog állni a zaklatással.
+                    Ha a szemlélők nem reagálnak semmit, a zaklató bátran folytatja tovább.
+                </p>
+            </div>
+        </div>
+        <h3 class="fs-6">Az online zaklatás megjelenési formái</h3>
+
+        <p>
+            Az online zaklatás sokféle módon megnyilvánulhat: többek közt lejárató kommentek
+            formájában; bántó, gyűlölködő tartalmak küldésével; pletykák terjesztésével;
+            megszégyenítő képek és videók megosztásával; álprofil létrehozásával vagy a szexuális
+            zaklatás online formájában. A táblázatban az online zaklatás megjelenési formáit és rövid
+            leírásukat láthatod.
+        </p>
+
+
+        <h3 class="fs-6">1. táblázat Az online zaklatás megjelenési formái</h3>
+
+        <table class="table table-striped">
+            <tr>
+                <th>Lángháború</th>
+                <td>Online veszekedés dühös és trágár
+                    nyelvezet használatával, illetve támadó
+                    jellegű hozzászólások küldése valakiről nyilvános fórumra.</td>
+            </tr>
+
+            <tr>
+                <th>Zaklatás</th>
+                <td>Bántó, igaztalan üzenetek küldése online.</td>
+            </tr>
+
+            <tr>
+                <th>Befeketítés</th>
+                <td>Hírnév rontására alkalmas pletykák vagy
+                    szóbeszéd küldése, terjesztése valakiről.</td>
+            </tr>
+
+            <tr>
+                <th>Kiközösítés</th>
+                <td>Az online közösség egy tagjának a
+                    csoportból való kirekesztése.</td>
+            </tr>
+
+            <tr>
+                <th>Személyiséglopás</th>
+                <td>Az elkövető egy másik személy online
+                    profilját feltörve, másik nevében
+                    hírnevének rontására alkalmas üzeneteket
+                    küldözget másoknak.</td>
+            </tr>
+
+            <tr>
+                <th>Kibeszélés</th>
+                <td>Titkok, pletykák vagy egyéb személyes
+                    információk engedély nélküli megosztása
+                    másokkal.</td>
+            </tr>
+
+            <tr>
+                <th>„Trükközés”, becsapás</th>
+                <td>Személyes információk csalással, megtévesztéssel történő megszerzése
+                    valakitől, majd ennek az információnak,
+                    adatnak a megosztása a közösségben.</td>
+            </tr>
+
+            <tr>
+                <th>Szexting</th>
+                <td>Az elkövető szexuálisan provokatív és saját
+                    maga által készített meztelen vagy félig
+                    meztelen képeket vagy nyíltan szexuális
+                    tartalmú szöveget küld el kéretlenül
+                    valakinek. </td>
+            </tr>
+        </table>
+        </p>
+    </section>
+
+    <section class="container-fluid">
+        <h2 class="fs-5" id="online_zaklatas_lelki_kovetkezmenyei">Az online zaklatás lelki következményei</h2>
+        <hr>
+
+        <p>
+            A szándékos agresszív cselekedet hatása fájdalmas és szégyenteli akkor is, ha két személy
+            között történik. Ám ez a hatás sokszoros, amikor mindez széles nyilvánosság előtt zajlik.
+            Az ismétlődően előforduló cikiző, lealacsonyító kommunikáció rombolja az énképünket és
+            az önértékelésünket („biztosan kicsit olyan vagyok, mint amit állítanak rólam, hiszen meg
+            lehet velem tenni"). A tehetetlenség érzése - az, hogy nem tudom leállítani az elkövetőt,
+            illetve nem tudom megakadályozni, hogy bárki megnézhesse a rólam készült intim képet
+            - reményvesztett, depresszív állapotot okoz. Ha senki nem áll ki az áldozat mellett, az nagyon gyorsan a
+            kirekesztés élményéhez vezet.
+            Ha nincsen következménye az elkövetett sérelemnek, nagyon nehéz feldolgozni azt,
+            nagyon nehéz emelt fejjel továbblépni a történteken.
+            Ha valaki ilyen állapotba kerül, gyakori, hogy egyetlen célja van: eltűnni a nyilvánosság,
+            elől, lehetőleg „a föld alá süllyedni”. Ezért aztán kerülni fogja az iskolát, azokat a tereket,
+            amiket korábban használt, félbehagyja a hobbijait, a tanulmányait. Az elbújás, az eltűnés
+            azonban nem oldja meg a helyzetet, és nem oldja fel a lelki feszültségeket, sérelmeket
+            sem. Az online zaklatás romboló hatása azért is áll annyira a figyelem középpontjában,
+            mert leginkább a serdülőket érintő jelenségről van szó. A kamaszkor egyébként is
+            érzékenyebb, érzelmileg szélsőségesebb, sérülékenyebb időszak az ember életében.
+            Mind a tettek, mind azok következményei sokkal szélsőségesebbek és átgondolatlanabbak
+            lehetnek. Az áldozatok könnyebben juthatnak el odáig, hogy magukban kárt tegyenek
+            (önsértés), vagy akár öngyilkosságot kíséreljenek meg. Éppen ezért nagyon fontos
+            idejében felismerni az online zaklatást és megfelelő segítséget kérni a helyzet
+            megoldására. Médiamentorként ez lehet a szereped, és hidd el, már önmagában ez is óriási segítség.
+        </p>
+    </section>
+
+    <section class="container-fluid">
+        <h2 class="fs-5" id="kernek_e_az_aldozatok_segitseget">Kérnek-e az áldozatok segítséget?</h2>
+        <hr>
+
+        <p>
+            AZ UNICEF Magyarország felmérései szerint minden harmadik gyereket zaklattak már
+            az interneten. A 10-18 évesek 80%-a rendelkezik valamilyen közösségi profillal, ami azért
+            lényeges, mert a chat-programok mellett a közösségi oldalak adják a cyberbullying
+            számára az egyik fő terepet.
+            A felmérés másik fontos eredménye, hogy az áldozatok közül csak minden tizedik kér
+            segítséget. Ennek egy, a Kék-vonal által végzett felmérés szerint az alábbi fő okai
+            lehetnek.
+            Bármi is legyen az oka, a „nem cselekvés" az esetek jelentős részében nem oldja meg
+            a problémát. Emellett növeli az áldozat elszigetelődését és tehetetlenségérzetét.
+            Ha áldozatként nem kérsz segítséget, gyorsan egyedül találhatod magadat a közösségi
+            térben. Ezért óriási jelentősége van annak, hogy nyíltan beszéljünk a cyberbullying-ról.
+            Az online zaklatás kezeléséről szóló foglalkozások segítenek megelőzni a zaklatást, illetve
+            növelik a konfliktusok békésebb megoldásának lehetőségét.
+        </p>
+    </section>
+
+    <section class="container-fluid">
+        <h2 class="fs-5" id="a_zaklatas_elkerulese">A zaklatás elkerülése</h2>
+        <hr>
+
+        <p>
+        <div class="row">
+            <div class="col-12 col-lg-4">
+                <h3 class="fs-6">Megelőzés</h3>
+                <p>
+                    Az online zaklatás nagyon sokszor egy olyan folyamat része, ami az offline térben indul el.
+                    Az osztályközösségben, vagy az iskolában zajló konfliktusok folytatódnak az online térben.
+                    Biztonságos légkör, elfogadó szemlélet megteremtése a közösségekben.
+                    Az egyik megelőzési lehetőség tehát az, ha az iskolában, osztályokban sikerül elfogadó,
+                    biztonságos légkörű közösségeket létrehozni, ahol senkit nem közösítenek ki.
+                    Azt, hogy milyen viselkedés, értékrend fér bele egy osztály szabályrendszerébe,
+                    a csoportnorma dönti el, melyet a csoporttagok mellett a csoport vezetője képvisel,
+                    egy iskolai osztály esetén az osztályfőnökök.
+                </p>
+            </div>
+            <div class="col-12 col-lg-4">
+                <h3 class="fs-6">Konfliktuskezelési módszerek elsajátítása</h3>
+                A bántalmazó, leuraló, félelemkeltő viselkedést tekinthetjük eszköztelenségnek is.
+                Ha a viselkedési kultúrának nem része az, hogy hogyan tudjuk agresszió nélkül kezelni
+                konfliktusainkat, indulatainkat, akkor egyenrangú vitatkozás helyett nagyon gyakran
+                marad a háborúzás.
+            </div>
+            <div class="col-12 col-lg-4">
+                <h3 class="fs-6">
+                    Gondolkodj, mielőtt megosztasz magadról képeket, információkat,
+                    akár posztban, akár chatelés közben.
+                </h3>
+                <p>
+                    Nagyon gyakori, hogy szakítások, egyéb konfliktusok idején a haragosok visszaélnek
+                    a korábban megtudott információkkal. Érdemes átgondolni, hogy mit, mikor oszthatok meg
+                    másokkal. Mikor érik meg egy kapcsolat arra, hogy intim dolgokról beszélhessek?
+                    Valódi kapcsolat-e az, amiben megosztok valamit?
+                    Sajnos az a leggyakoribb, hogy egy konfliktus kapcsán az addig legjobbnak hitt barát
+                    kiragad egy töredéket egy beszélgetésből, vagy valamilyen képből mémet gyárt, és ezáltal
+                    teszi nevetségessé a másikat.
+                </p>
+            </div>
+        </div>
+
+        <h3 class="fs-6">Törekedj egyensúlyra az online és offline világban eltöltött idődben!</h3>
+
+        <p>
+            Megfigyelhető, hogy azok válnak nagyon kiszolgáltatottá az online zaklatással szemben,
+            akik idejük és társas kapcsolataik nagy részét az interneten töltik. A felmérések szerint
+            az áldozatok gyakran több közösségi oldalon is aktívak.
+        </p>
+        <h3 class="fs-6">
+            Ha úgy érzed, nehezen tudsz barátságokat kötni, nincs önbizalmad;
+            vagy nem vagy jó pozícióban a csoportodban, kérj segítséget!
+        </h3>
+        <p>
+            Senki nem születik áldozatnak: az áldozattá válás egy folyamat következménye.
+            Ezt azonban nem kell feltétlenül bejárni, meg lehet állítani ezt a folyamatot, az alacsonyabb
+            önbizalommal és önértékeléssel rendelkezők támogatásával, kapcsolataik építésével.
+            Ilyen segítség lehet például a pszichológiai konzultáció vagy önismereti csoportba járás.
+        </p>
+    </section>
+
+    <section class="container-fluid">
+        <h2 class="fs-5" id="mit_tehet_a_mediamentor">Mit tehet a médiamentor?</h2>
+        <hr>
+
+        <p>
+        <h3 class="fs-6">Mit tehetsz a megelőzésért te, mint médiamentor?</h3>
+
+        <ul>
+            <li>Foglalkozásokat tarthatsz a biztonságos internethasználatról, a személyes adatok
+                védelméről és a cyberbullyingról, annak megelőzéséről és a megoldási módokról.</li>
+            <li>Ha egy osztályban érzékeled a zaklatás jelenlétét, kezdeményezz beszélgetést róla
+                a patrónustanároddal.</li>
+        </ul>
+
+        <h3 class="fs-6">Mit tanácsolj médiamentorként, ha valakit zaklattak a neten?</h3>
+        <p>A zaklatás különböző formái eltérő súlyúak, ezért a helyzetekre adott reakciók is eltérőek.</p>
+
+        <h3 class="fs-6">1. Ha nyilvánosan megszégyenítenek egy posztban...
+            Ne reagálj azonnal!</h3>
+        <p>
+            Noha fontos dolog megvédeni magunkat, ha bántanak, de egy nyilvános, zaklatásnál
+            a legegyszerűbb és legbölcsebb, amit tehetsz, hogy nem reagálsz azonnal.
+            A legtöbbször a megszégyenítő, megalázó posztoknak az a célja, hogy provokáljanak.
+            Ha meggondolatlanul, indulatból ugrasz a provokációra, a zaklató máris elérte célját:
+            újra reagálhat, a reakciók növelik a poszt láthatóságát és máris egy óriási nyilvánosság
+            előtt zajlik a zaklatás. Mielőtt reagálnál, legokosabb, ha megbeszéled valakivel az esetet.
+        </p>
+        <div class="row">
+            <div class="col-12 col-lg-4">
+                <h3 class="fs-6">
+                    Blokkold az elkövetőt! Mentsd el a bizonyítékot!
+                </h3>
+                <h3 class="fs-6">Jelezd az esetet:</h3>
+                <ul>
+                    <li>a barátaidnak,</li>
+                    <li>egy felnőttnek, akiben megbízol,</li>
+                    <li>médiamentornak,</li>
+                    <li>a közösségi oldal üzemeltetőjének.</li>
+                </ul>
+            </div>
+
+            <div class="col-12 col-lg-4">
+                <h3 class="fs-6">
+                    2. Ha valaki szexuális tartalmú üzenetet ir neked...
+                    Ne reagálj! Blokkold az elkövetőt! Mentsd el a bizonyítékot!
+                </h3>
+                <h3 class="fs-6">Jelezd az esetet:</h3>
+                <ul>
+                    <li>a barátaidnak,</li>
+                    <li>egy felnőttnek, akiben megbízol,</li>
+                    <li>a rendőrségnek - a kiskorúak szexuális zaklatása bűncselekménynek számít!,</li>
+                    <li>médiamentornak,</li>
+                    <li>a közösségi oldal üzemeltetőjének.</li>
+                </ul>
+            </div>
+            <div class="col-12 col-lg-4">
+                <h3 class="fs-6">
+                    3. Ha valaki visszaélt a személyes adataiddal, pl. a neveddel álprofilt hozott létre.
+                    Mentsd el a bizonyítékot!
+                </h3>
+                <h3 class="fs-6">Jelezd az esetet:</h3>
+
+                <ul>
+                    <li>a barátaidnak,</li>
+                    <li>egy felnőttnek, akiben megbízol (patrónus, szülők),</li>
+                    <li>a rendőrségnek - a személyi adatokkal való visszaélés bűncselekménynek számít!,</li>
+                    <li>médiamentornak,</li>
+                    <li>a közösségi oldal üzemeltetőjének.</li>
+                </ul>
+            </div>
+        </div>
+        <h3 class="fs-6">
+            Mit tanácsolj médiamentorként a szemlélőknek, ha azt látják, hogy cikiznek,
+            megszégyenítenek valakit?
+        </h3>
+        <p>
+            Szólj a barátaidnak, és minél többen, nyilvánosan ítéljétek el, állítsátok le a zaklatást!
+            Ez nagyon fontos lépés, hiszen ha csak figyeled, mi zajlik, te magad is fenntartod a zaklató
+            viselkedését. A zaklatók valójában nagyon érzékenyek a népszerűségre, így a nyilvános
+            reakció jó eszköz lehet a leállításukra.
+            Miért fontos még, hogy reagálj? Lehet, hogy magadban megkönnyebbülést érzel,
+            hogy nem te vagy az áldozat, de egy olyan közösségben, ahol szabad az egyik
+            csoporttagnak a másikat kirekeszteni, megalázni valójában senki nincsen biztonságban!
+            Legközelebb te is lehetsz áldozat!
+        </p>
+
+    </section>
+    <!-- scriptek JS -->
+    <script src="./js/bootstrap.min.js"></script>
 </body>
+
 </html>
